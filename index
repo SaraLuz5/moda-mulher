@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="assets/images/favicon/favicon-16x16.png" type="image/png">
+
+  <title>Moda da Mulher</title>
+
+  <link href="assets/styles/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/styles/app.css">
+  <link rel="stylesheet" href="assets/styles/produtos.css">
+
+</head>
+
+<body>
+
+  <!-- cabeçalho principal -->
+  <header class="bg-cor-primaria">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-2 my-4 text-center text-lg-start">
+          <img src="assets/images/logo.svg" alt="">
+        </div>
+
+        <div class="col-lg-7 my-4 d-flex align-items-center">
+          <form action="" class="site-search w-100">
+
+            <div class="input-group">
+              <input type="text" class="form-control rounded-pill py-2 px-4 pe-5"
+                placeholder="escolha seu estilo aqui...">
+              <button class="btn position-absolute"> <i class="bi bi-search"></i> </button>
+            </div>
+
+          </form>
+        </div>
+
+        <div class="col-lg-3 d-flex align-items-center justify-content-end">
+
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#"><i class="bi bi-person-fill"></i> entrar</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#"><i class="bi bi-cart-fill position-relative">
+                  <span class="badge position-absolute top-0 start-100 translate-middle bg-danger rounded-circle">3
+                  </span>
+                </i> carrinho</a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+  <!-- /cabeçalho principal -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-cor-secundaria sticky-top">
+
+    <div class="container">
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-principal">
+        <i class="navbar-toggler-icon"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu-principal">
+
+        <ul class="navbar-nav ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Moda Feminina</a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Lançamentos</a></li>
+              <li><a class="dropdown-item" href="#">Sapatos</a></li>
+              <li><a class="dropdown-item" href="#">Bolsas</a></li>
+            </ul>
+
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Calçados</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- /.navbar -->
+
+  <section class="slideshow">
+
+    <div class="container">
+
+      <div id="carousel" class="carousel slide">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/banners/banner-1.jpg" class="d-block w-100" alt="">
+          </div>
+
+          <div class="carousel-item">
+            <img src="assets/images/banners/banner-2.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <!-- /.carousel-inner -->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- /.slideshow -->
+
+  <section class="banners mt-4">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="assets/images/banners/Parcelas 12x.png" class="d-block w-100" alt="">
+        </div>
+
+        <div class="col-md-6">
+          <img src="assets/images/banners/Entrega todo Pais.png" class="d-block w-100" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- /.banners -->
+
+  <section class="mais-populares mt-5 text-center">
+    <div class="container">
+      <h2>Mais populares</h2>
+    </div>
+  </section>
+  <!-- /.mais-populares -->
+
+  <main class="produtos">
+
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Produto -->
+        <div class="col-md-3">
+          <div class="card card-produto rounded-0 border-0">
+            <img src="assets/images/produtos/thumb/bota.jpg" class="card-img-top rounded-0" alt="...">
+            <div class="card-body">
+
+            <h5 class="card-title">Bota preta</h5>
+
+              <p class="card-text">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+
+              <p class="card-text">R$ 250,99</p>
+
+              <p><a href="http://127.0.0.1:5500/moda-da-mulher-main/Bota.html">Compre Aqui</a></p>
+
+            </div>
+          </div>
+        </div>
+        <!-- /Produto -->
+
+        <!-- Produto -->
+        <div class="col-md-3">
+          <div class="card rounded-0 border-0">
+            <img src="assets/images/produtos/thumb/sandalia.jpg" class="card-img-top rounded-0" alt="...">
+            <div class="card-body">
+
+              <h5 class="card-title">Sandalia Chanel vintage</h5>
+
+              <p class="card-text">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+
+              </p>
+
+              <p class="card-text">R$ 300,00</p>
+
+              <p><a href="http://127.0.0.1:5500/moda-da-mulher-main/produtos.html">Compre Aqui</a></p>
+
+            </div>
+          </div>
+        </div>
+        <!-- /Produto -->
+
+        <!-- Produto -->
+        <div class="col-md-3">
+          <div class="card rounded-0 border-0">
+            <img src="assets/images/produtos/thumb/bolsa.jpg" class="card-img-top rounded-0" alt="...">
+            <div class="card-body">
+
+              <h5 class="card-title">Bolsa oncinha</h5>
+
+              <p class="card-text">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+
+              <p class="card-text">R$ 139,99</p>
+
+              <p><a href="http://127.0.0.1:5500/moda-da-mulher-main/produtos.html">Compre Aqui</a></p>
+
+            </div>
+          </div>
+        </div>
+        <!-- /Produto -->
+
+        <!-- Produto -->
+        <div class="col-md-3">
+          <div class="card rounded-0 border-0">
+            <img src="assets/images/produtos/thumb/bolsa2.jpg" class="card-img-top rounded-0" alt="...">
+            <div class="card-body">
+
+              <h5 class="card-title">Bolsa Prada preta</h5>
+
+              <p class="card-text">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+
+              <p class="card-text">R$ 450,00</p>
+
+              <p><a href="http://127.0.0.1:5500/moda-da-mulher-main/produtos.html">Compre Aqui</a></p>
+
+            </div>
+          </div>
+        </div>
+        <!-- /Produto -->
+
+      </div>
+
+    </div>
+
+  </main>
+  <!-- /.produtos -->
+
+  <section class="container veja-mais">
+
+    <div class="d-flex justify-content-center my-5">
+      <div class="btn btn-lg btn-warning text-uppercase rounded-pill px-4">veja mais</div>
+    </div>
+
+  </section>
+  <!-- /.veja-mais -->
+
+
+  <footer class="bg-cor-secundaria text-white">
+
+    <div class="container py-5">
+
+      <div class="row">
+
+        <div class="col-md-3">
+
+          <h5 class="text-primary">Atendimento</h5>
+
+          <ul>
+            <li>(45)9876-5432</li>
+            <li>@gmail.com</li>
+            <li>segunda a sexta das 08h00 as 18h00</li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+
+          <h5 class="text-primary">Atendimento</h5>
+
+          <ul>
+            <li>(11) 999999999</li>
+            <li>email@gmail.com</li>
+            <li>segunda a sexta das 09h00 as 17h00</li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+
+          <h5 class="text-primary">Fale com nossa IA</h5>
+
+         <a href="https://gemini.google.com/app?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_source=google&utm_medium=paid-media&utm_medium=cpc&utm_campaign=bkws&utm_campaign=2024ptBR_gemfeb&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330524&gbraid=0AAAAApk5Bhn2YQjCDTmAsawCPzVabz72V&gclid=CjwKCAiAl-_JBhBjEiwAn3rN7TipKzTjPE07DmbLC-lCsQ6ifQPTLTgMARLKFNbkCdurZcC4VoRkIxoCnboQAvD_BwE"><button type="button" class="btn btn-primary" id="liveToastBtn">Tire suas duvidas</button>
+
+          <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-header">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+              <div class="toast-body">
+                Hello, world! This is a toast message.
+              </div>
+            </div>
+          </div></a> <button type="button" class="btn btn-primary" id="liveToastBtn">Tire suas duvidas</button>
+
+
+        </div>
+
+      </div>
+
+  </footer>
+
+  <script src="assets/scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
